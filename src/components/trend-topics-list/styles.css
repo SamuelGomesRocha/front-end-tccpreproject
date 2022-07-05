@@ -1,0 +1,38 @@
+
+  .trend-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 300px;
+    height: 340px;
+    margin-top: 50px;
+    background:  #000;
+    border: 3px solid  #cd191e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+  }
+
+  .container {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    height: 300px;
+    width: 280px;
+  }
+  
+
+  .center-col {
+    border-radius: 20px;
+    flex: 1;
+    height: 250px;
+    margin-left: 14px;
+    background: #000;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .center-col::-webkit-scrollbar {
+    display: none;
+  }
